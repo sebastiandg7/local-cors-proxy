@@ -12,7 +12,8 @@ var optionDefinitions = [
   },
   { name: 'proxyUrl', type: String },
   { name: 'credentials', type: Boolean, defaultValue: false },
-  { name: 'origin', type: String, defaultValue: '*' }
+  { name: 'origin', type: String, defaultValue: '*' },
+  { name: 'removeRequestOrigin', type: Boolean, defaultValue: false }
 ];
 
 try {
